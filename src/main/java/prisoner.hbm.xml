@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+	<class name="prisoner.Add_prisoner" table="prisoner">
+		<id name="id">
+			<generator class="increment"></generator>
+		</id>
+
+		<property name="fullname"></property>
+		<property name="age"></property>
+		<property name="prisoner_id"></property>
+		<property name="casenumber"></property>
+		<property name="edate"></property>
+		<property name="rdate"></property>
+		<property name="etime"></property>
+		<property name="cdetail"></property>
+		<property name="address"></property>
+		<property name="econtact"></property>
+		<property name="gender"></property>
+
+
+	</class>
+</hibernate-mapping>

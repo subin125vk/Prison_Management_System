@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+<class name="jailor.Add_jailor" table="jailor">
+<id name="id">  
+     <generator class="increment"></generator>  
+    </id>  
+            
+    <property name="fullname"></property> 
+             <property name="jailor_id"></property>     
+             <property name="age"></property>     
+        <property name="dob"></property>     
+     <property name="phonenumber"></property>
+         <property name="email"></property>   
+         <property name="txtpassword"></property>
+             <property name="gender"></property>           
+  </class>  
+</hibernate-mapping>
